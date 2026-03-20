@@ -1,8 +1,10 @@
-import pandas as pd
+"""
+PROJECT: Fitness Trends Analysis
+OBJECTIVE: Identify global workout peaks and expansion targets using Pandas.
+CONCEPTS: Time-series analysis, Data filtering, Geospatial comparison.
+"""
 
-# Project: Fitness Trends Analysis
-# Category: Foundational Data Exploration
-# Status: Completed
+import pandas as pd
 
 # --- 1. Global search peak for 'workout' ---
 wo = pd.read_csv('data/workout.csv')
