@@ -1,0 +1,23 @@
+{
+    "currency" : "USD",
+    "usd_to_eur_rate" : 0.85,
+    "token_rate": 1.33,
+    "settings":
+            {"expected_output_ratio" : 2,
+            "tax_rates" : 0.21,
+            "safety_buffer": 1.05,
+            "max_budget_per_request" : 0.40,
+            "decimal_precision" : 6,
+            "quality_benchmark": "MMLU",
+            "_quality_note": "Scores estimated for unreleased models (2026 projections)"
+            },
+    "models" : [
+            {"name" : "GPT-5.5(xhigh)", "provider" : "OpenAI", "input_price_1M" : 30, "output_price_1M" : 180, "context_window": 922000, "quality_score": 93.5},
+            {"name" : "GPT-5.4 mini(xhigh)", "provider" : "OpenAI", "input_price_1M" : 0.75, "output_price_1M" : 4.5, "context_window" : 400000,"quality_score": 78.0},
+            {"name" : "Claude Opus 4.7", "provider" :  "Anthropic", "input_price_1M" : 5, "output_price_1M" : 25, "context_window" : 1000000, "quality_score": 92.8},
+            {"name" : "Gemini 3.1 Pro preview", "provider" :  "Google", "input_price_1M" : 2, "output_price_1M" : 12, "context_window" : 1000000, "quality_score": 89.8},
+            {"name" : "DeepSeek V4 Pro", "provider" :  "DeepSeek", "input_price_1M" : 0.14, "output_price_1M" : 0.28, "context_window" : 1000000, "quality_score": 87.5},
+            {"name" : "Grok 4", "provider" :  "xAI", "input_price_1M" : 2, "output_price_1M" : 6, "context_window" : 2000000, "quality_score": 88.2}
+        ]
+       
+
